@@ -1,0 +1,6805 @@
+/* Gano Endodontics - Meet the Doc Page */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+position: relative;
+width: 1440px;
+height: 4509.01px;
+
+background: #FFFFFF;
+
+
+/* Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 72px;
+isolation: isolate;
+
+width: 1440px;
+height: 884px;
+min-height: 812px;
+
+background: #F5EFE9;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* b59ce071-6260-4ca0-a45b-5d00aa05acb7.jpg */
+
+width: 1440px;
+height: 884px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+z-index: 0;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1440px;
+height: 426px;
+left: calc(50% - 1440px/2);
+bottom: 0px;
+
+background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.4) 69.23%);
+
+
+/* Gradient */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: linear-gradient(90deg, rgba(245, 239, 233, 0.18) 0%, rgba(245, 239, 233, 0) 50%, rgba(245, 239, 233, 0.1) 100%);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 22px 24px 24px;
+gap: 46px;
+
+width: 1440px;
+height: 884px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 16px;
+gap: 1261.02px;
+
+width: 1392px;
+height: 37.36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 7px;
+
+width: 163.2px;
+height: 37.36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 63px;
+height: 28.96px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo */
+
+position: absolute;
+width: 63px;
+height: 28.96px;
+left: 0px;
+top: 4.2px;
+
+background: url(loog.png);
+
+
+/* Logo */
+
+position: absolute;
+width: 63px;
+height: 28.96px;
+left: 0px;
+top: 4.2px;
+
+background: url(loog.png);
+
+
+/* Logo */
+
+position: absolute;
+width: 63px;
+height: 28.96px;
+left: 0px;
+top: 4.2px;
+
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(loog.png);
+
+
+/* Mask group */
+
+width: 93.2px;
+height: 37.36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Logo */
+
+position: absolute;
+width: 93.2px;
+height: 37.36px;
+left: 70px;
+top: 0px;
+
+background: url(loog.png);
+
+
+/* Logo */
+
+position: absolute;
+width: 93.2px;
+height: 37.36px;
+left: 70px;
+top: 0px;
+
+background: url(loog.png);
+
+
+/* Logo */
+
+position: absolute;
+width: 93.2px;
+height: 37.36px;
+left: 70px;
+top: 0px;
+
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(loog.png);
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 2px 0px 0px;
+gap: 20px;
+
+width: 886px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 100px;
+height: 15px;
+
+opacity: 0.96;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* MEET THE DOC */
+
+width: 100px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.8px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 97px;
+height: 15px;
+
+opacity: 0.96;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* OUR SERVICES */
+
+width: 97px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.8px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 90px;
+height: 15px;
+
+opacity: 0.96;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* PATIENT INFO */
+
+width: 90px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.8px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 86px;
+height: 15px;
+
+opacity: 0.96;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* CONTACT US */
+
+width: 86px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.8px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 162px;
+height: 15px;
+
+opacity: 0.96;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* ONLINE REFERRAL FORM */
+
+width: 162px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.8px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 251px;
+height: 15px;
+
+opacity: 0.96;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* PRINTABLE REFERRAL FORM AND MAP */
+
+width: 251px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.8px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px 0px 28px;
+gap: 326px;
+
+width: 1392px;
+height: 640px;
+min-height: 640px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 16px 0px 0px 16px;
+gap: 299px;
+
+width: 1363px;
+height: 612px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+width: 720px;
+height: 136px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heading 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+max-width: 520px;
+height: 136px;
+left: 0px;
+right: 200px;
+top: -0.56px;
+
+
+
+/* Welcome to GANO Endodontics */
+
+width: 720px;
+height: 136px;
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 68px;
+line-height: 68px;
+/* or 100% */
+display: flex;
+align-items: center;
+letter-spacing: -2.24px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 18px;
+
+width: 328px;
+height: 104.81px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 0.78px;
+
+width: 240px;
+max-width: 240px;
+height: 38.78px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Expert Louisville, KY Endodontist | Mark B Gano II DMD, MSD */
+
+width: 334px;
+height: 38px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 19px;
+/* or 94% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14.0129px 25.2373px 14.0129px 25.2513px;
+
+width: 171.49px;
+min-width: 140.13px;
+height: 48.03px;
+
+background: #FFFFFF;
+border-radius: 5.60518px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* GET IN TOUCH */
+
+width: 121px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.8155px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2A1A14;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Margin:align-center */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+display: none;
+width: 346px;
+height: 612px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Margin */
+
+width: 346px;
+height: 125.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 18px;
+
+position: absolute;
+height: 110.78px;
+left: 0px;
+right: 46px;
+top: -1.11px;
+
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 0.78px;
+
+width: 240px;
+max-width: 240px;
+height: 57.78px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 238.23px;
+height: 57px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+/* or 135% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 18.01px 10px 18.02px;
+
+width: 100px;
+min-width: 100px;
+height: 35px;
+
+background: #FFFFFF;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 63.97px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2A1A14;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 1440px;
+height: 112px;
+left: 0px;
+top: -29px;
+
+background: rgba(0, 0, 0, 0.4);
+opacity: 0.2;
+filter: blur(1px);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 72px 80px 88px;
+
+width: 1440px;
+height: 1358.25px;
+min-height: 812px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 72px;
+
+width: 1280px;
+max-width: 1280px;
+height: 1198.25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Container */
+
+width: 1280px;
+height: 320.25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 0px 0px;
+
+position: absolute;
+width: 180px;
+height: 27px;
+left: 0px;
+top: 0px;
+
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 119px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Background */
+
+width: 6px;
+height: 6px;
+
+background: #5D8FC9;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 105px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Meet the Doc */
+
+width: 105px;
+height: 17px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #6F7480;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+max-width: 760px;
+height: 326.03px;
+left: 212px;
+right: 308px;
+top: 0px;
+
+
+
+/* Heading 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 760px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Our Team Is Here To Serve You */
+
+width: 760px;
+height: 59px;
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 58px;
+/* identical to box height, or 108% */
+display: flex;
+align-items: center;
+letter-spacing: -1.08px;
+
+color: #0D1A76;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 720px;
+max-width: 720px;
+height: 171px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* We at Gano Endodontics are dedicated to providing the highest quality endodontic care in a modern, comfortable, and caring environment. Led by Endodontist, Dr. Gano, we strive to establish a personable relationship with our patients through open discussion and education of treatment choices. Our commitment to excellence assures that you will receive the highest caliber endodontic care available. */
+
+width: 765px;
+height: 171px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+/* or 190% */
+display: flex;
+align-items: center;
+
+color: #3B4A63;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 760px;
+height: 48.03px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14.0129px 25.2373px 14.0129px 25.2513px;
+
+width: 171.49px;
+min-width: 140.13px;
+height: 48.03px;
+
+background: #5D8FC9;
+border-radius: 5.60518px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* GET IN TOUCH */
+
+width: 121px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.8155px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+width: 1280px;
+height: 460px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 212.63px 0px 0px;
+
+position: absolute;
+width: 280px;
+height: 457.58px;
+left: 1000px;
+top: 0px;
+
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 7.1px;
+
+width: 280px;
+height: 244.95px;
+
+background: #F8FAFD;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 232px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Lead doctor */
+
+width: 232px;
+height: 17px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #6F7480;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 232px;
+height: 63px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Mark B Gano II DMD, MSD */
+
+width: 232px;
+height: 63px;
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+/* or 130% */
+display: flex;
+align-items: center;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 0.75px;
+
+width: 232px;
+height: 102.75px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Providing personalized endodontic care with a focus on comfort, education, and long-term patient trust. */
+
+width: 232px;
+height: 102px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+/* or 170% */
+display: flex;
+align-items: center;
+
+color: #3B4A63;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 40px 508px 40px 40px;
+isolation: isolate;
+
+position: absolute;
+height: 460px;
+min-height: 460px;
+left: 0px;
+right: 312px;
+top: 0px;
+
+background: linear-gradient(180deg, #EFE8DC 0%, #FBF8F3 100%);
+border-radius: 20px;
+
+
+/* Gradient */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: url(image);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Border */
+
+box-sizing: border-box;
+
+position: absolute;
+display: none;
+width: 280px;
+height: 280px;
+right: 98.05px;
+top: 25.95px;
+
+border: 22px solid rgba(31, 42, 68, 0.18);
+border-radius: 140px;
+transform: rotate(12deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Overlay */
+
+position: absolute;
+display: none;
+left: 7.02%;
+right: 38.98%;
+top: 26%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.55);
+border-radius: 24px 24px 0px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Overlay */
+
+position: absolute;
+height: 12px;
+left: 0px;
+right: 0px;
+bottom: 0.25px;
+
+background: rgba(31, 42, 68, 0.1);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 40px 17px 40px 18px;
+gap: 10px;
+
+position: absolute;
+width: 120px;
+height: 120px;
+right: 66px;
+bottom: 80.25px;
+
+background: rgba(75, 132, 198, 0.16);
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* BOARD CERTIFIED */
+
+display: none;
+width: 87px;
+height: 40px;
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #090C21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 1280px;
+height: 274px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1280px;
+height: 274px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Dr. Gano embraces an ongoing commitment to a culture of excellence and to serving his community. As a Diplomate of the American Board of Endodontics, Dr. Gano became East Louisville’s only Board-Certified Endodontist and one of only two practicing endodontists in Louisville. The Board Certification process, which takes years to accomplish, is only given to those who promote the highest quality of care for their patients. Those selected and awarded with this distinction demonstrate superior diagnostic skill, excellent clinical proficiency, and outstanding professional judgment. Less than a quarter of endodontists reach this level of certification. Because of this honor, Dr. Gano is excited to share his expertise by providing top-quality endodontics to the Louisville area. To do that, he utilizes the latest technology to help his patients receive the best care. As Louisville’s first and only provider to incorporate the GentleWave® procedure, he leads the market as he highlights his ongoing commitment to the most advanced endodontic care possible. */
+
+width: 1280px;
+height: 274px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+/* or 190% */
+display: flex;
+align-items: center;
+text-align: justify;
+
+color: #3B4A63;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14.0129px 25.2373px 14.0129px 25.2513px;
+
+display: none;
+width: 171.49px;
+min-width: 140.13px;
+height: 48.03px;
+
+background: #FFFFFF;
+border: 1px solid rgba(13, 27, 116, 0.1);
+border-radius: 5.60518px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* GET IN TOUCH */
+
+width: 121px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.8155px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0D1B74;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 28px 56px 20px;
+gap: 804.24px;
+
+display: none;
+width: 1440px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 168.78px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 168.78px;
+height: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+letter-spacing: -0.48px;
+
+color: #244B57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 28px;
+
+width: 354.99px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 88.16px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 88.16px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+
+color: #6E8D97;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 83.42px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 83.42px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+
+color: #6E8D97;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 127.41px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 127.41px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+
+color: #6E8D97;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px;
+gap: 40px;
+
+width: 1440px;
+height: 677.03px;
+
+background: #F8FAFD;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 385.42px;
+
+width: 1280px;
+height: 143px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 1280px;
+height: 143px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 1280px;
+height: 143px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 1280px;
+height: 99px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px 0px 0px;
+
+width: 1280px;
+height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 262px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Background */
+
+width: 6px;
+height: 6px;
+
+background: #5D8FC9;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 248px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Smile solutions for every need */
+
+width: 248px;
+height: 17px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #6F7480;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heading 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 1280px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* What We Do */
+
+width: 309px;
+height: 52px;
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 54px;
+line-height: 52px;
+/* identical to box height, or 96% */
+display: flex;
+align-items: center;
+letter-spacing: -1.32px;
+
+color: #0D1A76;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1280px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* From careful diagnosis to complete endodontic treatment and advanced technology, we provide care tailored to your needs — all under one roof. */
+
+width: 1280px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #6E8D97;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 0px 0px;
+gap: 28px;
+
+display: none;
+width: 346.31px;
+height: 62px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 97.09px;
+min-width: 92px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 97.09px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 97.09px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 97.09px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 65.75px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+
+color: #6E8D97;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 101.22px;
+min-width: 92px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 101.22px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 101.22px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 101.22px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 68.42px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+
+color: #6E8D97;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 92px;
+min-width: 92px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 92px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 77.38px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 92px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 78.38px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+
+color: #6E8D97;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+width: 1280px;
+height: 238px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 18px;
+gap: 26px;
+isolation: isolate;
+
+position: absolute;
+height: 238px;
+min-height: 238px;
+left: 0px;
+right: 864px;
+top: 0px;
+
+background: rgba(93, 143, 201, 0.6);
+border-radius: 14px;
+
+
+/* Border */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 184px;
+height: 184px;
+right: -42px;
+top: -48px;
+
+opacity: 0.18;
+border: 2px solid #EAF3F6;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Border */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 124px;
+height: 124px;
+left: -18px;
+bottom: -36px;
+
+opacity: 0.18;
+border: 2px solid #EAF3F6;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+background: #F7FBFC;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* iconify-icon → SVG */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 2.5px;
+top: 2.5px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 69.42%;
+right: 12.5%;
+top: 69.42%;
+bottom: 12.5%;
+
+border: 1.66667px solid #1E2A44;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 20.83%;
+top: 12.5%;
+bottom: 20.83%;
+
+border: 1.66667px solid #1E2A44;
+
+
+/* Margin */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 56px 0px 0px;
+
+width: 348.47px;
+max-width: 380.16px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 348.47px;
+max-width: 380.16px;
+height: 84px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 348.47px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Diagnosis */
+
+width: 348.47px;
+height: 30px;
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+letter-spacing: -0.48px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 348.47px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Proper diagnosis is the most important part of your treatment. */
+
+width: 348.47px;
+height: 44px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+display: flex;
+align-items: center;
+
+color: rgba(255, 255, 255, 0.9);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 18px;
+gap: 48px;
+isolation: isolate;
+
+position: absolute;
+height: 238px;
+min-height: 238px;
+left: 432px;
+right: 432px;
+top: 0px;
+
+background: rgba(93, 143, 201, 0.6);
+border-radius: 14px;
+
+
+/* Border */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 184px;
+height: 184px;
+right: -42px;
+top: -48px;
+
+opacity: 0.18;
+border: 2px solid #FFFFFF;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Border */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 124px;
+height: 124px;
+left: -18px;
+bottom: -36px;
+
+opacity: 0.18;
+border: 2px solid #EAF3F6;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+background: #F7FBFC;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* iconify-icon → SVG */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.32%;
+
+border: 1.66667px solid #1E2A44;
+
+
+/* Margin */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 56px 0px 0px;
+
+width: 348.47px;
+max-width: 380.16px;
+height: 136px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 348.47px;
+max-width: 380.16px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 348.47px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Treatment */
+
+width: 348.47px;
+height: 30px;
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+letter-spacing: -0.48px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 348.47px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* We offer a full scope of endodontic procedures. */
+
+width: 348.47px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+display: flex;
+align-items: center;
+
+color: rgba(255, 255, 255, 0.9);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 18px;
+gap: 26px;
+isolation: isolate;
+
+position: absolute;
+height: 238px;
+min-height: 238px;
+left: 864px;
+right: 0px;
+top: 0px;
+
+background: rgba(93, 143, 201, 0.6);
+border-radius: 14px;
+
+
+/* Border */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 184px;
+height: 184px;
+right: -42px;
+top: -48px;
+
+opacity: 0.18;
+border: 2px solid #EAF3F6;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Border */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 124px;
+height: 124px;
+left: -18px;
+bottom: -36px;
+
+opacity: 0.18;
+border: 2px solid #EAF3F6;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+background: #F7FBFC;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* iconify-icon → SVG */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+width: 16.67px;
+height: 16.67px;
+left: 1.67px;
+top: 1.67px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.66667px solid #1E2A44;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 16.67%;
+bottom: 16.67%;
+
+border: 1.66667px solid #1E2A44;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.33%;
+top: 33.33%;
+bottom: 33.33%;
+
+border: 1.66667px solid #1E2A44;
+
+
+/* Margin */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 56px 0px 0px;
+
+width: 348.47px;
+max-width: 380.16px;
+height: 140px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 348.47px;
+max-width: 380.16px;
+height: 84px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 348.47px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Technology */
+
+width: 348.47px;
+height: 30px;
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+letter-spacing: -0.48px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 348.47px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* At Gano Endodontics we utilize the latest technology to provide you with the best care. */
+
+width: 348.47px;
+height: 44px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+display: flex;
+align-items: center;
+
+color: rgba(255, 255, 255, 0.9);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 0px 0px;
+
+width: 1280px;
+height: 56.03px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Link */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14.0129px 25.2373px 14.0129px 25.2513px;
+
+width: 159.49px;
+min-width: 140.13px;
+height: 48.03px;
+
+border: 1px solid #5D8FC9;
+border-radius: 5.60518px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* LEARN MORE */
+
+width: 109px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.8155px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #5D8FC9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1440px;
+height: 464.03px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 80px;
+isolation: isolate;
+
+width: 1440px;
+height: 464.03px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Margin */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 32px;
+
+width: 293px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 293px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Background */
+
+width: 6px;
+height: 6px;
+
+background: #5D8FC9;
+border-radius: 3.35544e+07px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 265px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ADVANCED ENDODONTIC TECHNOLOGY */
+
+width: 265px;
+height: 16px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+
+color: #6F7480;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Background */
+
+width: 6px;
+height: 6px;
+
+background: #5D8FC9;
+border-radius: 3.35544e+07px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Background */
+
+position: absolute;
+width: 384px;
+height: 384px;
+right: -153.6px;
+top: -153.6px;
+
+background: #F0F9FF;
+opacity: 0.6;
+border-radius: 3.35544e+07px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Background */
+
+position: absolute;
+width: 256px;
+height: 256px;
+left: -76.8px;
+bottom: -101.87px;
+
+background: #F6FBFF;
+opacity: 0.4;
+border-radius: 3.35544e+07px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Horizontal Divider */
+
+position: absolute;
+display: none;
+height: 1px;
+left: 80px;
+right: 80px;
+top: 0px;
+
+background: #E8E8E8;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Horizontal Divider */
+
+position: absolute;
+display: none;
+height: 1px;
+left: 80px;
+right: 80px;
+bottom: 0.53px;
+
+background: #E8E8E8;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 311px;
+height: 124px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+z-index: 5;
+
+
+/* image 1 */
+
+width: 311px;
+height: 72px;
+
+background: url(image);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Margin */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 36px;
+
+width: 164px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 164px;
+height: 4px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Horizontal Divider */
+
+width: 64px;
+height: 1px;
+
+background: #E8E8E8;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Background */
+
+width: 4px;
+height: 4px;
+
+background: #0EA5E9;
+opacity: 0.6;
+border-radius: 3.35544e+07px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Horizontal Divider */
+
+width: 64px;
+height: 1px;
+
+background: #E8E8E8;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Margin */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 32px;
+
+width: 842px;
+height: 84px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+z-index: 6;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 16.52px;
+
+width: 842px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Gano Endodontics is proud to be Louisville's only provider of the GentleWave® Procedure, an alternative to traditional root canal treatment which offers a multitude of benefits for patients. */
+
+width: 871px;
+height: 52px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #71717A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14.0129px 25.2373px 14.0129px 25.2513px;
+
+width: 422.49px;
+min-width: 140.13px;
+height: 48.03px;
+
+border: 1px solid #5D8FC9;
+border-radius: 5.60518px;
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+z-index: 7;
+
+
+/* Learn more about the GentleWave® Procedure */
+
+width: 372px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.8155px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #5D8FC9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px;
+gap: 28px;
+
+width: 1440px;
+height: 1251.73px;
+
+background: #F8FAFD;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+z-index: 5;
+
+
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+width: 1280px;
+height: 677.56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 791.47px;
+height: 677.56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 73px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Background */
+
+width: 6px;
+height: 6px;
+
+background: #5D8FC9;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 59px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* VISIT US */
+
+width: 59px;
+height: 17px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #6F7480;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heading 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 780px;
+max-width: 780px;
+height: 154px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Book a Visit with Less Back and Forth */
+
+width: 780px;
+height: 154px;
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 76px;
+line-height: 77px;
+/* or 101% */
+display: flex;
+align-items: center;
+letter-spacing: -4.92px;
+
+color: #0D1A76;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Margin */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 269.438px 0px 0px;
+
+width: 791.47px;
+height: 458.56px;
+min-height: 184.97px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px 0px 0px;
+gap: 28px;
+
+width: 791.47px;
+height: 320.14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 17.93px;
+
+width: 476px;
+max-width: 476px;
+height: 68.01px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Paragraph */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10.07px;
+
+width: 476px;
+height: 68.01px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Phone */
+
+width: 56px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18.2px;
+line-height: 25px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* (502) 240-0649 */
+
+width: 176px;
+height: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22.4px;
+line-height: 31px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 17.93px;
+
+width: 476px;
+max-width: 476px;
+height: 136.13px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 11.2px;
+
+width: 476px;
+height: 65.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 476px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Email */
+
+width: 476px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18.2px;
+line-height: 25px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 476px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* hello@dentalstudio.com */
+
+width: 476px;
+height: 28px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 19.6px;
+line-height: 27px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 476px;
+height: 53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Quick details, easy directions, and a calm way to reach the clinic. */
+
+width: 476px;
+height: 53px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.8px;
+line-height: 26px;
+/* or 155% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px 0px 0px;
+
+width: 791.47px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 791.47px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Contact */
+
+width: 791.47px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+letter-spacing: -0.72px;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+width: 488.53px;
+height: 586px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Paragraph */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7.19px;
+
+position: absolute;
+visibility: hidden;
+left: 0px;
+right: 92px;
+top: 0px;
+bottom: 537.42px;
+
+
+
+/* Text */
+
+width: 39.48px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #6B7280;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 124.72px;
+height: 23px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #1F2933;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 18px;
+
+position: absolute;
+left: 0px;
+right: 92px;
+top: 242px;
+bottom: 78.46px;
+
+
+
+/* Frame 15 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 489px;
+height: 586px;
+left: 0px;
+top: 0px;
+
+
+
+/* image 2 */
+
+width: 489px;
+height: 307px;
+
+background: url(image);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 14 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 18px;
+
+width: 489px;
+height: 259px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+width: 489px;
+height: 119px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 19px;
+left: 0px;
+right: 0.47px;
+top: 0px;
+
+
+
+/* Text */
+
+width: 37.39px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 27px;
+left: 0px;
+right: 0.47px;
+top: 24.19px;
+
+
+
+/* Text */
+
+width: 287.63px;
+height: 27px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height, or 122% */
+display: flex;
+align-items: center;
+letter-spacing: -0.44px;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 20px;
+left: 0px;
+right: 0.47px;
+top: 56.01px;
+
+
+
+/* Text */
+
+width: 112.69px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+width: 489px;
+height: 118px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 19px;
+left: 0px;
+right: 0.47px;
+top: 0px;
+
+
+
+/* Text */
+
+width: 51.61px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 27px;
+left: 0px;
+right: 0.47px;
+top: 24.19px;
+
+
+
+/* 2503 Rush Ridge Drive, Suite C */
+
+width: 315px;
+height: 27px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height, or 122% */
+display: flex;
+align-items: center;
+letter-spacing: -0.44px;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 20px;
+left: 0px;
+right: 0.47px;
+top: 56.02px;
+
+
+
+/* Text */
+
+width: 128.08px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+display: none;
+width: 489px;
+height: 76.52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 19px;
+left: 0px;
+right: 0.47px;
+top: 0px;
+
+
+
+/* Text */
+
+width: 91.58px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 27px;
+left: 0px;
+right: 0.47px;
+top: 24.19px;
+
+
+
+/* Within one business day */
+
+width: 247px;
+height: 27px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height, or 122% */
+display: flex;
+align-items: center;
+letter-spacing: -0.44px;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 20px;
+left: 0px;
+right: 0.47px;
+top: 56.02px;
+
+
+
+/* Text */
+
+width: 200.58px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 18px;
+
+width: 1280px;
+height: 386.17px;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 725.19px;
+
+width: 1232px;
+height: 55.8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+width: 265.28px;
+height: 55.8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heading 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 0.8px;
+
+position: absolute;
+height: 29.8px;
+left: 0px;
+right: 0px;
+top: -1px;
+
+
+
+/* Send a quick message */
+
+width: 249px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height, or 120% */
+display: flex;
+align-items: center;
+letter-spacing: -0.48px;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+max-width: 280px;
+height: 21px;
+left: 0px;
+right: 0px;
+top: 34.8px;
+
+
+
+/* Text */
+
+width: 265.28px;
+height: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px 18px;
+
+width: 129.53px;
+height: 38px;
+
+background: #5D8FC9;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 93.53px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+width: 1232px;
+height: 204.38px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+height: 79px;
+left: 0px;
+right: 622px;
+top: 0px;
+
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 610px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 610px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 16px 17px;
+
+width: 610px;
+height: 52px;
+min-height: 52px;
+
+background: #FFFFFF;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 75.91px;
+height: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+height: 79px;
+left: 622px;
+right: 0px;
+top: 0px;
+
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 610px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Email */
+
+width: 610px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 16px 17px;
+
+width: 610px;
+height: 52px;
+min-height: 52px;
+
+background: #FFFFFF;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 140.52px;
+height: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7.99px;
+
+position: absolute;
+height: 114.99px;
+left: 0px;
+right: 0px;
+top: 90.19px;
+
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1232px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Message */
+
+width: 1232px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #1E2A44;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 16px 53px;
+
+width: 1232px;
+height: 88px;
+min-height: 88px;
+
+background: #FFFFFF;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 229.66px;
+height: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+color: #6D6D6D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 14px 18px;
+
+width: 1232px;
+height: 42px;
+
+background: #5D8FC9;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 98.67px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+display: none;
+width: 791.47px;
+height: 18.19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 50.2px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 50.2px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #1F2933;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 64.42px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 64.42px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #1F2933;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 104.39px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 104.39px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #1F2933;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 75.77px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 75.77px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+
+color: #1F2933;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Background */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 40px;
+
+position: absolute;
+width: 1440px;
+height: 500px;
+left: 0px;
+top: 4635.03px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.08);
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+z-index: 6;
+
+
+/* Footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1441px;
+height: 500px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 80px;
+gap: 80px;
+
+width: 1441px;
+height: 432px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 7px;
+
+margin: 0 auto;
+width: 163.2px;
+height: 37.36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 63px;
+height: 28.96px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo */
+
+position: absolute;
+width: 63px;
+height: 28.96px;
+left: 0px;
+top: 4.2px;
+
+background: url(loog.png);
+
+
+/* Logo */
+
+position: absolute;
+width: 63px;
+height: 28.96px;
+left: 0px;
+top: 4.2px;
+
+background: url(loog.png);
+
+
+/* Logo */
+
+position: absolute;
+width: 63px;
+height: 28.96px;
+left: 0px;
+top: 4.2px;
+
+background: linear-gradient(0deg, #0D1A76, #0D1A76), url(loog.png);
+
+
+/* Mask group */
+
+width: 93.2px;
+height: 37.36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Logo */
+
+position: absolute;
+width: 93.2px;
+height: 37.36px;
+left: 70px;
+top: 0px;
+
+background: url(loog.png);
+
+
+/* Logo */
+
+position: absolute;
+width: 93.2px;
+height: 37.36px;
+left: 70px;
+top: 0px;
+
+background: url(loog.png);
+
+
+/* Logo */
+
+position: absolute;
+width: 93.2px;
+height: 37.36px;
+left: 70px;
+top: 0px;
+
+background: linear-gradient(0deg, #0D1A76, #0D1A76), url(loog.png);
+
+
+/* Footer Link Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+margin: 0 auto;
+width: 514px;
+height: 272px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Column */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+margin: 0 auto;
+width: 106px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Meet the Doc */
+
+width: 106px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+letter-spacing: -0.006em;
+
+color: #999999;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 90px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 71px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 90px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link  */
+
+display: none;
+width: 71px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Link  */
+
+display: none;
+width: 87px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Link  */
+
+display: none;
+width: 39px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Column */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+margin: 0 auto;
+display: none;
+width: 90px;
+height: 232px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* About Us */
+
+width: 72px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+letter-spacing: -0.006em;
+
+color: #999999;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 90px;
+height: 184px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 68px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 72px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 90px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 71px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 77px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Column */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+margin: 0 auto;
+display: none;
+width: 79px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Properties */
+
+width: 79px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+letter-spacing: -0.006em;
+
+color: #999999;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 77px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 57px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 77px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Column */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+margin: 0 auto;
+width: 191px;
+height: 272px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Our Services */
+
+width: 100px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+letter-spacing: -0.006em;
+
+color: #999999;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 191px;
+height: 224px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 142px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 168px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 171px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 191px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 174px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 124px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Column */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+margin: 0 auto;
+width: 96px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Contact Us */
+
+width: 87px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+letter-spacing: -0.006em;
+
+color: #999999;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 96px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 96px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link  */
+
+width: 96px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 12px 80px;
+gap: 1216px;
+
+width: 1441px;
+height: 68px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Sub Link Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 0px;
+gap: 20px;
+
+margin: 0 auto;
+width: 464px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+width: 324px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: -0.006em;
+
+color: #111111;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+width: 120px;
+height: 24px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: -0.006em;
+
+color: #111111;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Social Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 184px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+background: #5D8FC9;
+border-radius: 58px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+left: 23.05%;
+right: 25%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+background: #5D8FC9;
+border-radius: 58px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.58%;
+right: 8.58%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #FFFFFF;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+background: #5D8FC9;
+border-radius: 58px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.04%;
+bottom: 16.12%;
+
+background: #FFFFFF;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+background: #5D8FC9;
+border-radius: 58px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.13%;
+right: 4.15%;
+top: 17.74%;
+bottom: 17.8%;
+
+background: #FFFFFF;

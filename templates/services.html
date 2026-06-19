@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Our Services | Gano Endodontics{% endblock %}
+{% block body_class %}services-page{% endblock %}
+
+{% block content %}
+{% include "partials/header.html" with header_theme="header-dark" logo_file="images/gano-blue-logo.png" %}
+
+<main>
+    <section class="services-hero">
+        <div>
+            <h1>Our Endodontic Services</h1>
+        </div>
+        <p>All procedures are performed by Dr. Gano II DMD, MSD, Diplomate, American Board of Endodontics, with advanced specialty care for complex dental needs.</p>
+        <div class="services-image">
+            <img src="{% static 'images/services.jpg' %}" alt="Endodontic procedure in a clinical room">
+            <a class="button button-white" href="#contact-form">Get in touch</a>
+        </div>
+    </section>
+
+    <section class="diagnosis-section">
+        <h2>Diagnosis</h2>
+        <p>Proper diagnosis is the most important part of your treatment. Oral pain such as toothaches or cracked/fractured teeth can often be difficult to pinpoint. Because of the vast network of nerves in the mouth, the pain of a damaged or diseased tooth is often felt in another tooth and/or in the head, neck or ear. An endodontist is a specialist in diagnosing and treating this type of pain.</p>
+        <a class="button" href="#contact-form">Get in touch</a>
+    </section>
+
+    <section class="procedure-section" id="procedures">
+        <div class="center-heading">
+            <div class="section-kicker"><span></span>Features and Services</div>
+            <h2>Common Procedures Made Easy to Explore</h2>
+            <p>Select a treatment to review the focus of each procedure and how our team helps preserve natural teeth with careful specialty care.</p>
+        </div>
+        <div class="procedure-grid">
+            <button class="procedure-item is-active" type="button" data-detail="Endodontic therapy is focused treatment for infected or inflamed tooth pulp, preserving your natural tooth whenever possible.">Endodontic Therapy<span>&rsaquo;</span></button>
+            <button class="procedure-item" type="button" data-detail="The GentleWave Procedure uses advanced fluid dynamics to help clean areas traditional instruments may not reach.">GentleWave&reg; Procedure<span>&rsaquo;</span></button>
+            <button class="procedure-item" type="button" data-detail="Retreatment reopens and carefully cleans a previously treated tooth when symptoms or infection return.">Endodontic Retreatment<span>&rsaquo;</span></button>
+            <button class="procedure-item" type="button" data-detail="Traumatic injury treatment helps stabilize, monitor, and preserve teeth after impact or dental trauma.">Traumatic Injury Treatment<span>&rsaquo;</span></button>
+            <button class="procedure-item" type="button" data-detail="Microsurgery allows precise treatment near the root tip when nonsurgical care is not enough.">Endodontic Microsurgery<span>&rsaquo;</span></button>
+            <button class="procedure-item" type="button" data-detail="Internal bleaching can brighten a tooth that has darkened from trauma or prior endodontic treatment.">Internal Bleaching<span>&rsaquo;</span></button>
+        </div>
+        <div class="procedure-detail" aria-live="polite">Endodontic therapy is focused treatment for infected or inflamed tooth pulp, preserving your natural tooth whenever possible.</div>
+    </section>
+
+    <section class="technology-section">
+        <h2>Advanced Technology</h2>
+        <p>At Gano Endodontics we utilize the latest technology to provide you with the best care. Technology such as the GentleWave&reg; Procedure, Surgical Operating Microscope, Digital Radiographs, Cone Beam Computed Tomography, and Ultrasonic Endodontic Instruments, are just some of the tools that we use to help us manage your case.</p>
+    </section>
+
+    <section class="form-section" id="contact-form">
+        <div class="form-heading">
+            <div class="section-kicker"><span></span>Contact</div>
+            <h2>Send a quick message</h2>
+            <p>We'll follow up within one business day.</p>
+        </div>
+        {% if sent %}
+            <div class="form-status">Thanks. Your message has been received.</div>
+        {% endif %}
+        <form class="contact-form" method="post" action="{% url 'services' %}#contact-form">
+            {% csrf_token %}
+            <div class="field-group">
+                <label for="{{ form.name.id_for_label }}">Name</label>
+                {{ form.name }}
+                {{ form.name.errors }}
+            </div>
+            <div class="field-group">
+                <label for="{{ form.email.id_for_label }}">Email</label>
+                {{ form.email }}
+                {{ form.email.errors }}
+            </div>
+            <div class="field-group">
+                <label for="{{ form.phone.id_for_label }}">Phone</label>
+                {{ form.phone }}
+                {{ form.phone.errors }}
+            </div>
+            <div class="field-group field-wide">
+                <label for="{{ form.message.id_for_label }}">Message</label>
+                {{ form.message }}
+                {{ form.message.errors }}
+            </div>
+            <button class="button" type="submit">Send message</button>
+        </form>
+    </section>
+</main>
+{% endblock %}

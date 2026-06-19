@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Meet the Doc | Gano Endodontics{% endblock %}
+{% block body_class %}meet-page{% endblock %}
+
+{% block content %}
+<section class="hero">
+    {% include "partials/header.html" with header_theme="header-light" logo_file="images/gano-white-logo.png" %}
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Welcome to <strong>Gano Endodontics</strong></h1>
+        <div class="hero-side">
+            <p>Expert Louisville, KY Endodontist | Mark B Gano II DMD, MSD</p>
+            <a class="button button-white" href="#visit">Get in touch</a>
+        </div>
+    </div>
+</section>
+
+<main>
+    <section class="intro-section" id="team">
+        <div class="section-kicker"><span></span>Meet the Doc</div>
+        <div class="intro-copy">
+            <h2>Our Team Is Here To Serve You</h2>
+            <p>We at Gano Endodontics are dedicated to providing the highest quality endodontic care in a modern, comfortable, and caring environment. Led by Endodontist, Dr. Gano, we strive to establish a personable relationship with our patients through open discussion and education of treatment choices. Our commitment to excellence assures that you will receive the highest caliber endodontic care available.</p>
+            <a class="button" href="#visit">Get in touch</a>
+        </div>
+    </section>
+
+    <section class="doctor-feature">
+        <div class="doctor-image">
+            <img src="{% static 'images/doctor.jpg' %}" alt="Doctor in a bright clinical office">
+            <span></span>
+        </div>
+        <aside class="doctor-card">
+            <p>Lead doctor</p>
+            <h3>Mark B Gano II DMD, MSD</h3>
+            <p>Providing personalized endodontic care with a focus on comfort, education, and long-term patient trust.</p>
+        </aside>
+    </section>
+
+    <section class="long-copy">
+        <p>Dr. Gano embraces an ongoing commitment to a culture of excellence and to serving his community. As a Diplomate of the American Board of Endodontics, Dr. Gano became East Louisville's only Board-Certified Endodontist and one of only two practicing endodontists in Louisville. The Board Certification process, which takes years to accomplish, is only given to those who promote the highest quality of care for their patients. Those selected and awarded with this distinction demonstrate superior diagnostic skill, excellent clinical proficiency, and outstanding professional judgment. Less than a quarter of endodontists reach this level of certification. Because of this honor, Dr. Gano is excited to share his expertise by providing top-quality endodontics to the Louisville area. To do that, he utilizes the latest technology to help his patients receive the best care. As Louisville's first and only provider to incorporate the GentleWave&reg; procedure, he leads the market as he highlights his ongoing commitment to the most advanced endodontic care possible.</p>
+    </section>
+
+    <section class="what-we-do" id="what-we-do">
+        <div class="center-heading">
+            <div class="section-kicker"><span></span>Smile solutions for every need</div>
+            <h2>What We Do</h2>
+            <p>From careful diagnosis to complete endodontic treatment and advanced technology, we provide care tailored to your needs under one roof.</p>
+        </div>
+        <div class="service-cards">
+            <article>
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="6" />
+                        <line x1="16.5" y1="16.5" x2="20" y2="20" />
+                    </svg>
+                </span>
+                <h3>Diagnosis</h3>
+                <p>Proper diagnosis is the most important part of your treatment.</p>
+            </article>
+            <article>
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M8 7h8" />
+                        <path d="M10 7v4" />
+                        <path d="M14 7v4" />
+                        <rect x="6" y="11" width="12" height="8" rx="2" />
+                    </svg>
+                </span>
+                <h3>Treatment</h3>
+                <p>We offer a full scope of endodontic procedures.</p>
+            </article>
+            <article>
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="7" width="18" height="10" rx="2" />
+                        <path d="M7 7V4" />
+                        <path d="M17 7V4" />
+                        <path d="M12 7v2" />
+                        <path d="M3 11h4" />
+                        <path d="M17 11h4" />
+                        <path d="M9 17v3" />
+                        <path d="M15 17v3" />
+                    </svg>
+                </span>
+                <h3>Technology</h3>
+                <p>At Gano Endodontics we utilize the latest technology to provide you with the best care.</p>
+            </article>
+        </div>
+        <a class="button button-outline" href="{% url 'services' %}">Learn more</a>
+    </section>
+
+    <section class="gentlewave">
+        <div class="section-kicker"><span></span>Advanced endodontic technology<span></span></div>
+        <h2>Gentlewave <small>Procedure</small></h2>
+        <p>Gano Endodontics is proud to be Louisville's only provider of the GentleWave&reg; Procedure, an alternative to traditional root canal treatment which offers a multitude of benefits for patients.</p>
+        <a class="button button-outline" href="{% url 'services' %}#procedures">Learn more about the GentleWave&reg; Procedure</a>
+    </section>
+
+    <section class="visit-section" id="visit">
+        <div class="visit-heading">
+            <div class="section-kicker"><span></span>Visit us</div>
+            <h2>Book a Visit with Less Back and Forth</h2>
+        </div>
+        <div class="visit-grid">
+            <div class="contact-info">
+                <div>
+                    <p>Phone</p>
+                    <a href="tel:+15022400649">(502) 240-0649</a>
+                </div>
+                <div>
+                    <p>Email</p>
+                    <a href="mailto:hello@dentalstudio.com">hello@dentalstudio.com</a>
+                </div>
+                <p>Quick details, easy directions, and a calm way to reach the clinic.</p>
+            </div>
+            <div class="map-panel">
+                <iframe title="Gano Endodontics map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=2503%20Rush%20Ridge%20Drive%2C%20Suite%20C%2C%20Louisville%2C%20KY%2040245&output=embed"></iframe>
+                <div class="map-details">
+                    <div>
+                        <p>Hours</p>
+                        <strong>Mon-Sat : 9:00 AM-7:00 PM</strong>
+                        <span>Closed on Sunday</span>
+                    </div>
+                    <div>
+                        <p>Address</p>
+                        <strong>2503 Rush Ridge Drive, Suite C</strong>
+                        <span>Louisville, KY 40245</span>
+                    </div>
+                </div>
+                <a class="button" href="https://www.google.com/maps/search/?api=1&query=2503+Rush+Ridge+Drive+Suite+C+Louisville+KY+40245" target="_blank" rel="noreferrer">Get directions</a>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}
