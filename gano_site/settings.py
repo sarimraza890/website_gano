@@ -24,6 +24,14 @@ DEBUG = os.environ.get("DEBUG", "True").lower() in {"1", "true", "yes", "on"}
 ALLOWED_HOSTS = [host.strip() for host in os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1").split(",") if host.strip()]
 CSRF_TRUSTED_ORIGINS = [origin.strip() for origin in os.environ.get("CSRF_TRUSTED_ORIGINS", "").split(",") if origin.strip()]
 
+if "VERCEL" in os.environ:
+    ALLOWED_HOSTS.append(".vercel.app")
+    CSRF_TRUSTED_ORIGINS.append("https://*.vercel.app")
+    if "VERCEL_URL" in os.environ:
+        ALLOWED_HOSTS.append(os.environ["VERCEL_URL"])
+        CSRF_TRUSTED_ORIGINS.append(f"https://{os.environ['VERCEL_URL']}")
+
+
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
