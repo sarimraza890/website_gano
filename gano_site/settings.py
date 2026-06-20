@@ -126,10 +126,39 @@ USE_TZ = True
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_DIRS = [BASE_DIR / "static"]
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
+
+# Storage Configuration (Supabase Cloud Storage or local fallback)
+if os.environ.get("SUPABASE_STORAGE_BUCKET_NAME"):
+    INSTALLED_APPS.append("storages")
+    STORAGES = {
+        "default": {
+            "BACKEND": "storages.backends.s3boto3.S3Boto3Storage",
+            "OPTIONS": {
+                "access_key": os.environ.get("SUPABASE_AWS_ACCESS_KEY_ID"),
+                "secret_key": os.environ.get("SUPABASE_AWS_SECRET_ACCESS_KEY"),
+                "bucket_name": os.environ.get("SUPABASE_STORAGE_BUCKET_NAME"),
+                "region_name": os.environ.get("SUPABASE_AWS_REGION", "ap-northeast-1"),
+                "endpoint_url": os.environ.get("SUPABASE_S3_ENDPOINT_URL"),
+                "default_acl": None,
+                "querystring_auth": False,
+            },
+        },
+        "staticfiles": {
+            "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+        },
+    }
+else:
+    STORAGES = {
+        "default": {
+            "BACKEND": "django.core.files.storage.FileSystemStorage",
+        },
+        "staticfiles": {
+            "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+        },
+    }
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
