@@ -786,6 +786,33 @@ main {
 }
 
 @media (max-width: 1100px) {
+    /* Blurred / darkened overlay behind the active menu */
+    .site-header.nav-open::before {
+        content: "";
+        position: fixed;
+        top: 74px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 10;
+        background: rgba(30, 42, 68, 0.45);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        animation: menuFadeIn 0.25s ease-out forwards;
+    }
+
+    @keyframes menuFadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    /* Keep toggle button and brand logo above the overlay */
+    .brand,
+    .nav-toggle {
+        position: relative;
+        z-index: 25;
+    }
+
     .site-header {
         padding-inline: 24px;
     }
@@ -802,11 +829,39 @@ main {
         display: none;
         flex-direction: column;
         align-items: flex-start;
-        padding: 20px;
-        border-radius: 8px;
-        background: #fff;
-        color: #111;
-        box-shadow: 0 18px 60px rgba(13, 26, 118, 0.18);
+        padding: 24px;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        box-shadow: 0 20px 50px rgba(13, 26, 118, 0.25);
+        z-index: 20;
+        gap: 0;
+        width: auto;
+    }
+
+    .primary-nav a {
+        display: block;
+        width: 100%;
+        color: var(--blue, #0d1a76) !important; /* Force high-contrast brand color on mobile list */
+        font-size: 13px;
+        font-weight: 700;
+        padding: 14px 0;
+        border-bottom: 1px solid rgba(13, 26, 118, 0.08);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        transition: color 0.2s, padding-left 0.2s;
+    }
+
+    .primary-nav a:last-child {
+        border-bottom: none;
+    }
+
+    .primary-nav a:hover,
+    .primary-nav a:focus {
+        color: var(--sky, #5d8fc9) !important;
+        padding-left: 6px;
     }
 
     .nav-open .primary-nav {

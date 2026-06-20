@@ -1,0 +1,304 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Patient Referral Form | Gano Endodontics{% endblock %}
+{% block body_class %}referral-page{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/referral.css' %}">
+{% endblock %}
+
+{% block content %}
+<!-- Reuse the main site dark header for integrated feel -->
+{% include "partials/header.html" with header_theme="header-dark" logo_file="images/gano-blue-logo.png" %}
+
+<main class="referral-container">
+    <!-- Main Card -->
+    <div class="referral-card">
+        <div class="referral-header">
+            <h1>Gano Endodontics - Patient Referral</h1>
+            <p>Please complete this form to submit a patient referral. Required fields are marked with (*). </p>
+        </div>
+
+        {% if sent %}
+            <div class="referral-status success">
+                <strong>Well Done!</strong> Your patient referral form has been submitted successfully.
+            </div>
+        {% endif %}
+
+        {% if form.errors %}
+            <div class="referral-errors">
+                <strong>Please correct the errors below before submitting:</strong>
+                <ul>
+                    {% for field in form %}
+                        {% for error in field.errors %}
+                            <li>{{ field.label }}: {{ error }}</li>
+                        {% endfor %}
+                    {% endfor %}
+                    {% for error in form.non_field_errors %}
+                        <li>{{ error }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+
+        <form method="post" enctype="multipart/form-data" action="{% url 'referral' %}" id="referral-form">
+            {% csrf_token %}
+
+            <div class="referral-grid">
+                
+                <!-- PATIENT INFORMATION -->
+                <h2 class="referral-section-title">Patient Information</h2>
+
+                <div class="referral-field {% if form.patient_name.errors %}has-error{% endif %}">
+                    <label for="{{ form.patient_name.id_for_label }}">
+                        Patient Name<span class="required-star">*</span>
+                    </label>
+                    {{ form.patient_name }}
+                    {% if form.patient_name.errors %}
+                        <span class="referral-field-error">{{ form.patient_name.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+                <div class="referral-field {% if form.date_of_birth.errors %}has-error{% endif %}">
+                    <label for="{{ form.date_of_birth.id_for_label }}">
+                        Date of Birth (YYYY-MM-DD)<span class="required-star">*</span>
+                    </label>
+                    {{ form.date_of_birth }}
+                    {% if form.date_of_birth.errors %}
+                        <span class="referral-field-error">{{ form.date_of_birth.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+                <div class="referral-field {% if form.parent_name.errors %}has-error{% endif %}">
+                    <label for="{{ form.parent_name.id_for_label }}">
+                        Parent Name (if a minor)
+                    </label>
+                    {{ form.parent_name }}
+                    {% if form.parent_name.errors %}
+                        <span class="referral-field-error">{{ form.parent_name.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+                <div class="referral-field {% if form.patient_phone.errors %}has-error{% endif %}">
+                    <label for="{{ form.patient_phone.id_for_label }}">
+                        Patient Phone Number
+                    </label>
+                    {{ form.patient_phone }}
+                    {% if form.patient_phone.errors %}
+                        <span class="referral-field-error">{{ form.patient_phone.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+
+                <!-- REFERRING DENTIST INFORMATION -->
+                <h2 class="referral-section-title">Referring Dentist Information</h2>
+
+                <div class="referral-field {% if form.referring_dentist.errors %}has-error{% endif %}">
+                    <label for="{{ form.referring_dentist.id_for_label }}">
+                        Referring Dentist
+                    </label>
+                    {{ form.referring_dentist }}
+                    {% if form.referring_dentist.errors %}
+                        <span class="referral-field-error">{{ form.referring_dentist.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+                <div class="referral-field {% if form.dentist_phone.errors %}has-error{% endif %}">
+                    <label for="{{ form.dentist_phone.id_for_label }}">
+                        Dentist Phone Number
+                    </label>
+                    {{ form.dentist_phone }}
+                    {% if form.dentist_phone.errors %}
+                        <span class="referral-field-error">{{ form.dentist_phone.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+
+                <!-- REFERRAL DETAILS -->
+                <h2 class="referral-section-title">Reason for Referral</h2>
+
+                <div class="referral-field {% if form.reason_for_referral.errors %}has-error{% endif %} field-full-width">
+                    <label>Reason for Referral</label>
+                    <div class="referral-radio-group">
+                        {% for radio in form.reason_for_referral %}
+                            <label class="referral-radio-item" for="{{ radio.id_for_label }}">
+                                {{ radio.tag }}
+                                <label for="{{ radio.id_for_label }}">{{ radio.choice_label }}</label>
+                            </label>
+                        {% endfor %}
+                    </div>
+                    {% if form.reason_for_referral.errors %}
+                        <span class="referral-field-error">{{ form.reason_for_referral.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+                <div class="referral-field {% if form.tooth_numbers.errors %}has-error{% endif %} field-full-width">
+                    <label for="{{ form.tooth_numbers.id_for_label }}">
+                        Tooth/Teeth Number(s)<span class="required-star">*</span>
+                    </label>
+                    {{ form.tooth_numbers }}
+                    {% if form.tooth_numbers.errors %}
+                        <span class="referral-field-error">{{ form.tooth_numbers.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+                <div class="referral-field {% if form.comments.errors %}has-error{% endif %} field-full-width">
+                    <label for="{{ form.comments.id_for_label }}">
+                        Comments:
+                    </label>
+                    {{ form.comments }}
+                    {% if form.comments.errors %}
+                        <span class="referral-field-error">{{ form.comments.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+
+                <!-- INSURANCE INFORMATION -->
+                <h2 class="referral-section-title">Insurance Information</h2>
+
+                <div class="referral-field {% if form.insurance_name.errors %}has-error{% endif %}">
+                    <label for="{{ form.insurance_name.id_for_label }}">
+                        Insurance Name<span class="required-star">*</span>
+                    </label>
+                    {{ form.insurance_name }}
+                    {% if form.insurance_name.errors %}
+                        <span class="referral-field-error">{{ form.insurance_name.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+                <div class="referral-field {% if form.insurance_id.errors %}has-error{% endif %}">
+                    <label for="{{ form.insurance_id.id_for_label }}">
+                        Insurance ID#<span class="required-star">*</span>
+                    </label>
+                    {{ form.insurance_id }}
+                    {% if form.insurance_id.errors %}
+                        <span class="referral-field-error">{{ form.insurance_id.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+                <div class="referral-field {% if form.policy_holder.errors %}has-error{% endif %}">
+                    <label for="{{ form.policy_holder.id_for_label }}">
+                        Policy Holder Name, DOB (if not patient)
+                    </label>
+                    {{ form.policy_holder }}
+                    {% if form.policy_holder.errors %}
+                        <span class="referral-field-error">{{ form.policy_holder.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+                <div class="referral-field {% if form.group_number.errors %}has-error{% endif %}">
+                    <label for="{{ form.group_number.id_for_label }}">
+                        Group #
+                    </label>
+                    {{ form.group_number }}
+                    {% if form.group_number.errors %}
+                        <span class="referral-field-error">{{ form.group_number.errors.0 }}</span>
+                    {% endif %}
+                </div>
+
+
+                <!-- RADIOGRAPH UPLOAD -->
+                <h2 class="referral-section-title">Radiograph Upload (JPG, PNG, PDF)</h2>
+                
+                <div class="upload-grid">
+                    <!-- Upload 1 -->
+                    <div class="file-upload-box" id="upload-box-1">
+                        <div class="file-upload-icon">&#128196;</div>
+                        <div class="file-upload-text">Browse Files</div>
+                        <div class="file-upload-info">Radiograph 1</div>
+                        {{ form.radiograph_1 }}
+                        <div class="file-selected-name" id="file-name-1">No file selected</div>
+                    </div>
+                    
+                    <!-- Upload 2 -->
+                    <div class="file-upload-box" id="upload-box-2">
+                        <div class="file-upload-icon">&#128196;</div>
+                        <div class="file-upload-text">Browse Files</div>
+                        <div class="file-upload-info">Radiograph 2</div>
+                        {{ form.radiograph_2 }}
+                        <div class="file-selected-name" id="file-name-2">No file selected</div>
+                    </div>
+
+                    <!-- Upload 3 -->
+                    <div class="file-upload-box" id="upload-box-3">
+                        <div class="file-upload-icon">&#128196;</div>
+                        <div class="file-upload-text">Browse Files</div>
+                        <div class="file-upload-info">Radiograph 3</div>
+                        {{ form.radiograph_3 }}
+                        <div class="file-selected-name" id="file-name-3">No file selected</div>
+                    </div>
+
+                    <!-- Upload 4 -->
+                    <div class="file-upload-box" id="upload-box-4">
+                        <div class="file-upload-icon">&#128196;</div>
+                        <div class="file-upload-text">Browse Files</div>
+                        <div class="file-upload-info">Radiograph 4</div>
+                        {{ form.radiograph_4 }}
+                        <div class="file-selected-name" id="file-name-4">No file selected</div>
+                    </div>
+
+                    <!-- Upload 5 -->
+                    <div class="file-upload-box" id="upload-box-5">
+                        <div class="file-upload-icon">&#128196;</div>
+                        <div class="file-upload-text">Browse Files</div>
+                        <div class="file-upload-info">Radiograph 5</div>
+                        {{ form.radiograph_5 }}
+                        <div class="file-selected-name" id="file-name-5">No file selected</div>
+                    </div>
+                </div>
+
+
+                <!-- DIRECTIONS AND MAP -->
+                <h2 class="referral-section-title">Directions to Gano Endodontics</h2>
+                
+                <div class="directions-widget">
+                    <iframe title="Gano Endodontics Map Directions" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=2503%20Rush%20Ridge%20Drive%2C%20Suite%20C%2C%20Louisville%2C%20KY%2040245&output=embed"></iframe>
+                    <div class="directions-footer">
+                        <div class="directions-address">
+                            <strong>Gano Endodontics</strong>
+                            2503 Rush Ridge Drive, Suite C, Louisville, KY 40245
+                        </div>
+                        <a class="directions-btn" href="https://www.google.com/maps/search/?api=1&query=2503+Rush+Ridge+Drive+Suite+C+Louisville+KY+40245" target="_blank" rel="noreferrer">
+                            Get Directions
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SUBMIT BUTTON -->
+                <div class="referral-submit-section">
+                    <button type="submit" class="referral-submit-btn">Submit Referral</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</main>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Handle showing file name when file is uploaded in the browse buttons
+        const uploadInputs = [
+            { input: document.getElementById("id_radiograph_1"), label: document.getElementById("file-name-1") },
+            { input: document.getElementById("id_radiograph_2"), label: document.getElementById("file-name-2") },
+            { input: document.getElementById("id_radiograph_3"), label: document.getElementById("file-name-3") },
+            { input: document.getElementById("id_radiograph_4"), label: document.getElementById("file-name-4") },
+            { input: document.getElementById("id_radiograph_5"), label: document.getElementById("file-name-5") }
+        ];
+
+        uploadInputs.forEach(item => {
+            if (item.input && item.label) {
+                item.input.addEventListener("change", function() {
+                    if (this.files && this.files.length > 0) {
+                        item.label.textContent = this.files[0].name;
+                        item.label.style.color = "#0d1a76";
+                    } else {
+                        item.label.textContent = "No file selected";
+                        item.label.style.color = "#718096";
+                    }
+                });
+            }
+        });
+    });
+</script>
+{% endblock %}

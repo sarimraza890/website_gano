@@ -98,14 +98,25 @@ def database_from_url(value):
     }
 
 
-DATABASES = {
-    "default": database_from_url(os.environ["DATABASE_URL"])
-    if os.environ.get("DATABASE_URL")
-    else {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+import sys
+IS_TESTING = "test" in sys.argv
+
+if IS_TESTING:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
+        }
     }
-}
+else:
+    DATABASES = {
+        "default": database_from_url(os.environ["DATABASE_URL"])
+        if os.environ.get("DATABASE_URL")
+        else {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
+        }
+    }
 
 LANGUAGE_CODE = "en-us"
 TIME_ZONE = "America/Kentucky/Louisville"
@@ -117,6 +128,10 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_DIRS = [BASE_DIR / "static"]
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
+MEDIA_URL = "media/"
+MEDIA_ROOT = BASE_DIR / "media"
+
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+
