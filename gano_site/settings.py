@@ -133,15 +133,27 @@ MEDIA_ROOT = BASE_DIR / "media"
 # Storage Configuration (Supabase Cloud Storage or local fallback)
 if os.environ.get("SUPABASE_STORAGE_BUCKET_NAME"):
     INSTALLED_APPS.append("storages")
+    
+    # Parse Supabase Project ID to construct direct public URLs
+    endpoint_url = os.environ.get("SUPABASE_S3_ENDPOINT_URL")
+    bucket_name = os.environ.get("SUPABASE_STORAGE_BUCKET_NAME")
+    custom_domain = None
+    if endpoint_url:
+        parsed_url = urlparse(endpoint_url)
+        if parsed_url.hostname:
+            project_id = parsed_url.hostname.split(".")[0]
+            custom_domain = f"{project_id}.supabase.co/storage/v1/object/public/{bucket_name}"
+
     STORAGES = {
         "default": {
             "BACKEND": "storages.backends.s3boto3.S3Boto3Storage",
             "OPTIONS": {
                 "access_key": os.environ.get("SUPABASE_AWS_ACCESS_KEY_ID"),
                 "secret_key": os.environ.get("SUPABASE_AWS_SECRET_ACCESS_KEY"),
-                "bucket_name": os.environ.get("SUPABASE_STORAGE_BUCKET_NAME"),
+                "bucket_name": bucket_name,
                 "region_name": os.environ.get("SUPABASE_AWS_REGION", "ap-northeast-1"),
-                "endpoint_url": os.environ.get("SUPABASE_S3_ENDPOINT_URL"),
+                "endpoint_url": endpoint_url,
+                "custom_domain": custom_domain,
                 "default_acl": None,
                 "querystring_auth": False,
             },
